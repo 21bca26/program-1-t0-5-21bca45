@@ -8,7 +8,7 @@ void main()
 	clrscr();
 	while(a<=5)
 	{
-	  //	printf("%d",a);
+		printf("%d",a);
 		sum=sum+a;
 		a=a+1;
 	  }
