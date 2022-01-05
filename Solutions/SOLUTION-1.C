@@ -1,4 +1,4 @@
- /* write a program to print sum of 1 to 5 Digit
+ /* write a program to print sum of any Digit 
 Date:16/12/21 */
 #include<stdio.h>
 #include<conio.h>
