@@ -4,14 +4,16 @@ Date:16/12/21 */
 #include<conio.h>
 void main()
 {
-	int a=1,sum=0;
-	clrscr();
-	while(a<=5)
-	{
-		printf("%d",a);
-		sum=sum+a;
-		a=a+1;
-	  }
-		printf("\n sum of 1 to 5 Number is %d",sum);
-		getch();
+ 	int a,n,sum=0;
+ 	clrscr();
+ 	printf("\n enter the value:");
+ 	scanf("%d",&a);
+ 	while(a>0)
+ 	{
+		 n=a%10;
+	 	sum=sum+n;
+	 	a=a/10;
+ 	}
+  	printf("\n sum of number is %d",sum);
+ 	getch();
 }
