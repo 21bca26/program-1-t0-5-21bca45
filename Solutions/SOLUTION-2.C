@@ -10,7 +10,7 @@ void main()
 	while(a>0)
 	{
 		i=a%10;
-		printf("%d",i);
+		//printf("%d",i);
 		a=a/10;
 	}
 	getch();
